@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+:root{
+    --seconday-purple: #000000;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    background-image: url(https://wallpaperbat.com/img/712824-forex-trading-wallpaper-2000x975-wallpaper-teahubio.jpg);
+    margin: auto;
+    backdrop-filter: blur(2.8px);
+}
+
+label{
+    display: block;
+    padding: 0.5rem;
+    color:  rgb(1, 0, 0);
+    font-weight: bold;
+    text-shadow: 2px 3px 2px rgb(255, 255, 255);
+}
+
+h1{
+    background-color: #000000b2;
+    color: white;
+    -webkit-text-stroke: 0.8px rgb(214, 0, 0);
+}
+
+button{
+    cursor: pointer;
+    background-color: var(--seconday-purple);
+    color: white;
+    font-weight: bold;
+    padding: 1%;
+    margin: 4px auto;
+    border-radius :22px;
+    border: rgb(56, 45, 117) solid;
+    display: block;
+    
+
+}
+
+button:hover{
+    background-color: rgba(255, 0, 0, 0.804);
+    border:black solid;
+    
+}
+
+input{
+    cursor: pointer;
+    border: var(--seconday-purple) solid;
+    border-radius: 0.5rem;
+    font-weight: bold;
+    padding: 0.25rem 0.5rem;
+    width: 30%;
+    
+}
+.okay{
+    padding-bottom: 1rem;
+}
+div{
+    color: var(--seconday-purple);
+    font-weight: bold;
+    font-size: 1.2rem;
+    padding-top: 1rem;
+}
+footer{
+    color: white;
+}
+.footer{
+    padding: 2rem 1rem;
+    text-align: center;
+    border-bottom-right-radius: 1rem;
+    margin-top: 5rem;
+    background-color: #000000b2;
+}
+.link,.footer-header{
+    color: white;
+}
+.footer ul{
+    padding-inline-start: 0px;
+}
+
+.footer .footer-header{
+    font-weight: bold;
+    font-size: large;
+    text-decoration: underline rgba(154, 61, 61, 0.687);
+}
+
+#output-box{
+    text-decoration: underline grey;
+    text-shadow: 2px 3px 2px rgb(255, 255, 255);
+}
+
+.list-non-bullet{
+    list-style: none;
+}
+
+.list-item-inline{
+    display: inline;
+    padding: 0rem 0.5rem;
+}
